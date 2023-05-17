@@ -1,0 +1,9 @@
+#!/bin/sh
+# Get into the directory where you have aestest and run_ex.
+# Then run ./run_ex. 
+
+# you do not have to specify all 32 hex digits. 
+./aestest 00  0000000000000002b7e151628aed2a6a 
+
+# but it is very likely, you need to specify all the digits. 
+./aestest 00000000000000000000000000000001 100000000000000000123456789abcde
